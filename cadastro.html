@@ -6,27 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title>Nome</title>
 </head>
 <body>
     <script src="app/app.js"></script>
     <header>
-        <p id="logo">Logo</p>
+        <img id="logo" src="img/logo.png">
     </header>
-    <article>
-        <label class="poslog" for="login">Login</label>
-        <input type="text" id="user" name="login"><br></br>
-        <label class="poslog" for="cname">Nome:</label>
-        <input type="text" id="cname" name="cname"><br></br>
-        <label class="poslog" for="bdate">Data de nascimento:</label>
-        <input type="text" id="bdate" name="bdate"><br></br>
-        <label class="poslog" for="city">Cidade:</label>
-        <input type="text" id="city" name="city"><br></br>
-        <label class="poslog" for="senha">Senha:</label>
-        <input type="text" id="psw" name="senha"><br></br>
-        <input class="posbutton" type="submit" id="enviar" onclick="Enviar()" value="Enviar" />
-        <a href="index.html">
-            <input  type="button" value="Já é cadastrado?">
-        </a>
+    <article class="art">
+        <div class="user-pwd-container">
+            <label class="poslog" for="login"></label>
+            <input type="text" id="user" name="login" placeholder="login">
+        </div>
+
+        <div class="user-pwd-container">
+            <label class="poslog" for="cname"></label>
+            <input type="text" id="cname" name="cname" placeholder="nome">
+        </div>
+
+        <div class="user-pwd-container">
+            <label class="poslog" for="bdate"></label>
+            <input type="text" id="bdate" name="bdate" placeholder="data de nascimento">
+        </div>
+
+        <div class="user-pwd-container">
+
+            <label class="poslog" for="city"></label>
+            <input type="text" id="city" name="city" placeholder="cidade">
+        </div>
+
+        <div class="user-pwd-container">
+            <label class="poslog" for="senha"></label>
+            <input type="text" id="psw" name="senha" placeholder="senha">
+        </div>
+
+        <div class="user-pwd-container">
+            <label class="poslog" for="senha"></label>
+            <input type="text" id="psw" name="senha" placeholder="confirmar senha">
+        </div>
+        
+        <div id="btn-container">
+            <input class="button posbutton" type="submit" id="enviar" onclick="Enviar()" value="Enviar" />
+            <a href="index.html">
+                <input class="button" type="button" value="Cadastrado?">
+            </a>
+        </div>
     </article>
 </body>
