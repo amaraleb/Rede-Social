@@ -6,43 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title>Peaple | Cadastro</title>
 </head>
-<body>
+<body class="body">
     <script src="app/app.js"></script>
     <header>
         <img id="logo" src="img/logo.png">
     </header>
-    <article class="art">
+    <article class="art art-cadastro">
+        <h1 id="title">Cadastre-se</h1>
+
         <div class="user-pwd-container">
-            <label class="poslog" for="login"></label>
+            <label class="poslog" for="login"><i class="bi bi-person-plus"></i></label>
             <input type="text" id="user" name="login" placeholder="login">
         </div>
 
         <div class="user-pwd-container">
-            <label class="poslog" for="cname"></label>
+            <label class="poslog" for="cname"><i class="bi bi-person-plus-fill"></i></label>
             <input type="text" id="cname" name="cname" placeholder="nome">
         </div>
 
         <div class="user-pwd-container">
-            <label class="poslog" for="bdate"></label>
+            <label class="poslog" for="bdate"><i class="bi bi-calendar2-check-fill"></i></label>
             <input type="text" id="bdate" name="bdate" placeholder="data de nascimento">
         </div>
 
         <div class="user-pwd-container">
 
-            <label class="poslog" for="city"></label>
+            <label class="poslog" for="city"><i class="bi bi-geo-alt-fill"></i></label>
             <input type="text" id="city" name="city" placeholder="cidade">
         </div>
 
         <div class="user-pwd-container">
-            <label class="poslog" for="senha"></label>
+            <label class="poslog" for="senha"><i class="bi bi-lock"></i></label>
             <input type="text" id="psw" name="senha" placeholder="senha">
         </div>
 
         <div class="user-pwd-container">
-            <label class="poslog" for="senha"></label>
+            <label class="poslog" for="senha"><i class="bi bi-lock-fill"></i></label>
             <input type="text" id="psw" name="senha" placeholder="confirmar senha">
         </div>
         

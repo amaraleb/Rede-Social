@@ -33,6 +33,12 @@ header {
     align-items: center;
 }
 
+.art-cadastro {
+    height: 520px;
+    /* padding-top: 70px; */
+    margin-bottom: 100px;
+}
+
 #title {
     width: fit-content;
     padding-top: 10%;
