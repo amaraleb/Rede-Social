@@ -36,6 +36,7 @@ header {
 #title {
     width: fit-content;
     padding-top: 10%;
+    color: #0D0D0D;
     /* margin-left: 50%; */
     /* transform: translateX(-50%); */
 }
@@ -51,9 +52,22 @@ header {
 }
 
 .button {
-    width: 100px;
+    width: 120px;
     border-radius: 8px;
     padding: 5px;
+    font-weight: bold;
+    color: #F2F2F2;
+    border: 2px solid #F2937E ;
+    background-color: #F2937E;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: #F2F2F2;
+    transition: 0.7s;
+    border: 2px solid #F2937E ;
+    color: #F2937E;
+
 }
 
 /* .posbutton {
@@ -73,7 +87,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #000000;
+    border: 2px solid #F2937E;
 }
 
 .user-pwd-container input {
