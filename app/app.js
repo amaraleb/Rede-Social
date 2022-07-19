@@ -57,7 +57,7 @@ function Enviar() {
             window.alert("Usuário cadastrado com sucesso!");
             window.location.href="index.html";
         } else {
-            window.alert("Confirmação da senha diferente da senha");
+            window.alert("A senha e a confirmação de senha devem ser iguais");
         }
     }  
 }
