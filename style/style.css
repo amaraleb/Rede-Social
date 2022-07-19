@@ -5,12 +5,18 @@
 .body {
     width: 100%;  
     background-color: #fff;  
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
 }
 
 #logo {
-    width: fit-content;
-    margin-left: 49%;
-    transform: translateX(-50%);
+    width: 300px;
+    /* margin-left: 49%; */
+    /* transform: translateX(-50%); */
 }
 
 .art {
