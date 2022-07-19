@@ -99,8 +99,9 @@ header {
 
 .user-pwd-container input {
     border: none;
-    width: 250px;
-    height: 30px;
+    width: 240px;
+    height: 20px;
+   
 }
 
 .user-pwd-container i {
