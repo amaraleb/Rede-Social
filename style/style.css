@@ -1,18 +1,18 @@
 .body {
     width: 100%;  
-    background-color: aquamarine;  
+    background-color: #fff;  
 }
 
 #logo {
     width: fit-content;
-    margin-left: 50%;
+    margin-left: 49%;
     transform: translateX(-50%);
 }
 
 .art {
-    width: 400px;
-    height: 400px;
-    background-color: white;
+    width: 320px;
+    height: 280px;
+    background-color: antiquewhite;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #000000;
     margin-left: 50%;
@@ -21,15 +21,19 @@
 
 #title {
     width: fit-content;
-    padding-top: 20%;
+    padding-top: 10%;
     margin-left: 50%;
     transform: translateX(-50%);
 }
 
 .poslog {
     width: fit-content;
-    margin-left: 23%;
-    
+    margin-left: 16%;
+}
+
+.pospsw {
+    width: fit-content;
+    margin-left: 15.5%;
 }
 
 .button {
@@ -37,8 +41,7 @@
 }
 
 .posbutton {
-    margin-top: 10%;
-    margin-left: 25%;
-   
+    margin-top: 12%;
+    margin-left: 18%;
 }
 
