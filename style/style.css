@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .body {
     width: 100%;  
     background-color: #fff;  
@@ -16,7 +20,11 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #000000;
     margin-left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #title {
@@ -28,20 +36,53 @@
 
 .poslog {
     width: fit-content;
-    margin-left: 16%;
+    /* margin-left: 16%; */
 }
 
 .pospsw {
     width: fit-content;
-    margin-left: 15.5%;
+    /* margin-left: 15.5%; */
 }
 
 .button {
     width: 100px;
+    border-radius: 8px;
+    padding: 5px;
 }
 
-.posbutton {
+/* .posbutton {
     margin-top: 12%;
     margin-left: 18%;
+} */
+
+.user-pwd-container {
+    background-color: #fff;
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    /* margin: auto; */
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000000;
+}
+
+.user-pwd-container input {
+    border: none;
+    width: 250px;
+    height: 30px;
+}
+
+ input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    }
+
+
+#btn-container input {
+margin: 0 10px;    
 }
 

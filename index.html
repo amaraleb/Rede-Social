@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title>peaple</title>
 </head>
 <body class="body">
@@ -16,14 +17,23 @@
     
     <article class="art">
         <h1 id="title">Bem vindo!</h1><br>
-        <label class="poslog" for="login">Login:</label>
-        <input type="text" id="user" name="login"><br></br>
-        <label class="pospsw" for="senha">Senha:</label>
-        <input type="text" id="psw" name="senha"><br>
-        <input class="button posbutton" type="submit" id="entrar" onclick="Entrar()" value="Entrar" />
-        <a href="cadastro.html">
-            <input class="button" type="button" value="Cadastre-se">
-        </a>
+
+        <div class="user-pwd-container">
+            <label class="poslog" for="login"><i class="bi bi-person-fill"></i></label>
+            <input type="text" id="user" name="login" placeholder="usuário"><br></br>
+        </div>
+
+        <div class="user-pwd-container">
+            <label class="pospsw" for="senha"><i class="bi bi-lock-fill"></i></label>
+            <input type="text" id="psw" name="senha" placeholder="senha"><br>
+        </div>
+
+        <div id="btn-container">
+            <input class="button posbutton" type="submit" id="entrar" onclick="Entrar()" value="Entrar" />
+            <a href="cadastro.html">
+                <input class="button" type="button" value="Cadastre-se">
+            </a>
+        </div>
     </article>
 </body>
 </html>
