@@ -9,17 +9,24 @@
     <title>Peaple | Profile</title>
 </head>
 <body>
+    <script src="app/app.js"></script>
+    <body onload="Perfil()"></body>
     <div class="body">
         <center>
             <h1>Teste</h1>
         </center>
     </div>
+    <div>
+        <h1 id="cname"></h1>
+        <input type="submit" id="atualizar" onclick="Refresh()" value="Atualizar" />
+        <h2 id="bdate"></h2>
+        <h2 id="city"></h2>
+    </div>
     <div class="profile-container">
         <div class=" img-profile">
             <img src="https://picsum.photos/400/500" alt="">
         </div>
-        <button><a href="./profile.html">Atualizar</a> </button>
+        <input type="submit" id="sair" onclick="Clean()" value="Sair" />
     </div>
-    <script src="app/app.js"></script>
 </body>
 </html>
