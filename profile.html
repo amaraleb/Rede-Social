@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/profile.css" />
     <title>Peaple | Profile</title>
-</head>
-<body>
-    <script src="app/app.js"></script>
+  </head>
+  <body>
     <body onload="Perfil()"></body>
-    <div class="body">
-        <center>
-            <h1>Teste</h1>
-        </center>
-    </div>
-    <div>
-        <h1 id="cname"></h1>
-        <input type="submit" id="atualizar" onclick="Refresh()" value="Atualizar" /> \\se você conseguir, coloca o simbolo do refresh no botão, no value\\
-        <h2 id="bdate"></h2>
-        <h2 id="city"></h2>
-    </div>
-    <div class="profile-container">
-        <div class=" img-profile">
-            <img src="https://picsum.photos/400/500" alt="">
+    <main>
+      <aside>
+          <div id="perfil-image">img</div>
+        <div>
+          <h1 id="cname"></h1>
+          
+          <!-- <h2 id="bdate"></h2> -->
+          <h2 id="city"></h2>
         </div>
+      </aside>
+      <div class="profile-container">
+        <div class="img-profile">
+          <img src="https://picsum.photos/400/500" alt="" />
+        </div>
+        <input
+            type="submit"
+            id="atualizar"
+            onclick="Refresh()"
+            value="Atualizar"
+          />
         <input type="submit" id="sair" onclick="Clean()" value="Sair" />
-    </div>
-</body>
+
+      </div>
+    </main>
+
+    <script src="app/app.js"></script>
+  </body>
 </html>
