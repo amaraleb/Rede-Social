@@ -1,6 +1,6 @@
 console.log("olá mundo!");
 
-const log = ["Alfredo", "Eduardo", "teste"];
+const log = ["alfredo", "eduardo", "teste"];
 const key = ["1234", "1807", "teste"];
 const cn = ["Alfredo Gutemberg", "Eduardo Bernardi Amaral", "Teste da Silva"];
 const bd = ["12081985", "18071990","20072022" ];
