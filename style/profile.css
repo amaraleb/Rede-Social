@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-
-
 main {
     display: flex;
     background-color: #F2CDC4;
@@ -29,6 +27,7 @@ aside {
     border-radius: 50%;
     background-color: #F2F2F2;
     margin-bottom: 20px;
+    border: 8px solid #F2F2F2;
 }
 
 .content-container {
@@ -40,3 +39,9 @@ aside {
     margin: auto;
     
 }
+
+#perfil-foto {
+    border-radius: 50%;
+}
+
+ 
