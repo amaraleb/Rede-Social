@@ -1,10 +1,10 @@
 console.log("olá mundo!");
 
-const log = ["teste", "edu", "AlfGP"];
-const key = ["teste", "1807", "1901"];
-const cn = ["teste", "Eduardo Bernardi Amaral", "Alfredo Gutemberg"];
-const bd = ["teste", "18071990","12081985" ];
-const ct = ["teste", "Iraí","Fortaleza" ];
+const log = ["Alfredo", "Eduardo", "teste"];
+const key = ["1234", "1807", "tese"];
+const cn = ["Alfredo Gutemberg", "Eduardo Bernardi Amaral", "Teste da Silva"];
+const bd = ["12081985", "18071990","20072022" ];
+const ct = ["Fortaleza", "Iraí","Westeros" ];
 
 
 var user;
