@@ -10,6 +10,7 @@ main {
 }
 
 aside {
+    font-family: 'Fira Sans', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,6 +29,10 @@ aside {
     background-color: #F2F2F2;
     margin-bottom: 20px;
     border: 8px solid #F2F2F2;
+}
+
+#city {
+    margin-bottom: 8px;
 }
 
 .content-container {
