@@ -8,11 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style/profile.css" />
     <title>Peaple | Profile</title>
   </head>
-  <body>
-    <body onload="Perfil()"></body>
+  <body onload="Perfil()">
     <main>
       <aside>
           <div id="perfil-image"><img id="perfil-foto" src="https://picsum.photos/150" alt=""></div>
@@ -28,12 +28,14 @@
         <div class="img-profile">
           <img src="https://picsum.photos/400/500" alt="" />
         </div>
-        <input
-            type="submit"
+        
+          <div class="">
+            <label class="pospsw" for="senha"><i class="bi bi-arrow-clockwise"></i></label>
+            <input type="submit"
             id="atualizar"
             onclick="Refresh()"
-            value="Atualizar"
-          />
+            value="Atualizar"/>
+        </div>
         
 
       </div>

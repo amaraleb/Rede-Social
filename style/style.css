@@ -4,7 +4,7 @@
 }
 .body {
     width: 100%;  
-    background-color: #fff;  
+    background-color: #e4d7d4;  
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -63,7 +63,7 @@ header {
     border-radius: 8px;
     padding: 5px;
     font-weight: bold;
-    color: #F2F2F2;
+    color: #f4eeee;
     border: 2px solid #F2937E ;
     background-color: #F2937E;
     font-size: 1em;
