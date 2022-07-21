@@ -1,10 +1,6 @@
 console.log("olá mundo!");
 
-const log = ["alfredo", "eduardo", "teste"];
-const key = ["1234", "1807", "teste"];
-const cn = ["Alfredo Gutemberg", "Eduardo Bernardi Amaral", "Teste da Silva"];
-const bd = ["12081985", "18071990","20072022" ];
-const ct = ["Fortaleza", "Iraí","Westeros" ];
+const log = [{log: "alfredo", key: "1234", cn: "Alfredo Gutemberg", bd: "12081985", ct: "Fortaleza"}, {log: "eduardo", key: "1807", cn: "Eduardo Bernardi Amaral", bd: "18071990", ct: "Iraí"}, {log: "teste", key: "teste", cn: "Teste da Silva", bd: "20072022", ct: "westeros"}];
 
 
 var user;
@@ -20,17 +16,17 @@ function Entrar() {
     psw = $("#psw").val();
     i = log.findIndex(vlog);
     function vlog (usuario){
-        return usuario == user;
+        return usuario.log == user;
     }
     if(i>=0){
-        if(psw==key[i]){
+        if(psw==log[i].key){
             window.location="profile.html";
             localStorage.setItem('x', i)
         } else{
-            window.alert("Senha inválida");
+            window.alert("Usuário ou senha inválido");
         }
     } else {
-        window.alert("Usuário inválido");
+        window.alert("Usuário ou senha inválido");
     }
 }
 
@@ -38,7 +34,7 @@ function Enviar() {
     user = $("#user").val();
     i = log.findIndex(vlog);
     function vlog (usuario){
-        return usuario == user;
+        return usuario.log == user;
     }
     if(i>=0){
         window.alert("Usuário já cadastrado");
@@ -49,11 +45,8 @@ function Enviar() {
         psw = $("#psw").val();
         cpsw = $('#cpsw').val();
         if(psw == cpsw) {
-            log.push(user);
-            cn.push(cname);
-            bd.push(bdate);
-            ct.push(city);
-            key.push(psw);
+            let novo = {log: user, key: psw, cn: cname, bd: bdate, ct: city};
+            log.push(novo);
             window.alert("Usuário cadastrado com sucesso!");
             window.location.href="index.html";
         } else {
@@ -65,9 +58,9 @@ function Enviar() {
 function Perfil() {
     if(localStorage.length>0) {
         let f = localStorage.getItem('x');
-        $("#cname").append(cn[f]);
-        $("#bdate").append(bd[f]);
-        $("#city").append(ct[f]);
+        $("#cname").append(log[f].cn);
+        $("#bdate").append(log[f].bd);
+        $("#city").append(log[f].ct);
     } else {
         window.location.href="index.html";
     }
