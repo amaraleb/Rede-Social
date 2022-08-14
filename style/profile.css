@@ -3,12 +3,24 @@
     padding: 0;
 }
 
+nav {
+    background-color: #F2CDC4;
+    border: #F2CDC4;
+    border-bottom: #F2937E;
+    border-style:solid
+}
+
 main {
     display: flex;
-    background-color: #F2CDC4;
+    background-color: #e4d7d4;
 
 }
 
+aside {
+    display: none;
+}
+
+@media (min-width: 768px){
 aside {
     font-family: 'Fira Sans', sans-serif;
     display: flex;
@@ -20,7 +32,7 @@ aside {
     padding-top: 40px;
     border-right: 3px solid #F2937E;
     background-color: #F2B1A2;
-}
+}}
 
 #perfil-image {
     width: 150px;

@@ -1,0 +1,115 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #F2CDC4;
+    border: #F2CDC4;
+    border-bottom: #F2937E;
+    border-style:solid
+}
+
+.body {
+    width: 100%; 
+    background-color: #e4d7d4; 
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.art {
+    margin-top: 40px;
+    width: 320px;
+    height: 280px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.art-cadastro {
+    height: 360px;
+    /* padding-top: 70px; */
+    margin-bottom: 100px;
+}
+
+#title {
+    width: fit-content;
+    padding-top: 10%;
+    color: #0D0D0D;
+    margin-bottom: 20px;
+    /* margin-left: 50%; */
+    /* transform: translateX(-50%); */
+}
+
+.poslog {
+    width: fit-content;
+    /* margin-left: 16%; */
+}
+
+.pospsw {
+    width: fit-content;
+    /* margin-left: 15.5%; */
+}
+
+.button {
+    width: 120px;
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: bold;
+    color: #f4eeee;
+    border: 2px solid #F2937E ;
+    background-color: #F2937E;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: #F2F2F2;
+    transition: 0.7s;
+    border: 2px solid #F2937E ;
+    color: #F2937E;
+
+}
+.user-pwd-container {
+    background-color: #fff;
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    /* margin: auto; */
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #F2937E;
+}
+
+.user-pwd-container input {
+    border: none;
+    width: 240px;
+    height: 20px;
+   
+}
+
+.user-pwd-container i {
+    font-size: 1.3em;
+    color: #F2937E;
+}
+
+ input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    }
