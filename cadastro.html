@@ -15,42 +15,42 @@
 <body class="body">
     <script src="app/cadastro.js"></script>
     <header>
-        <img id="logo" src="img/logo.png" alt="Logo">
+        <img id="logo" src="img/newlogo.png" alt="Logo">
     </header>
     <article class="art art-cadastro">
         <h1 id="title">Cadastre-se</h1>
 
         <div class="user-pwd-container">
-            <label class="poslog" for="login"><i class="bi bi-envelope"></i></label>
-            <input type="text" id="user" name="login" placeholder="E-mail">
+            <label for="login"><i class="bi bi-envelope"></i></label>
+            <input class="input" type="text" id="user" name="login" placeholder="E-mail">
         </div>
 
         <div class="user-pwd-container">
-            <label class="poslog" for="cname"><i class="bi bi-person-lines-fill"></i></label>
-            <input type="text" id="fname" name="cname" placeholder="Nome">
+            <label for="cname"><i class="bi bi-person-lines-fill"></i></label>
+            <input class="input" type="text" id="fname" name="cname" placeholder="Nome">
         </div>
 
         <div class="user-pwd-container">
-            <label class="poslog" for="bdate"><i class="bi bi-person-lines-fill"></i></label>
-            <input type="text" id="lname" name="bdate" placeholder="Sobrenome">
+            <label for="bdate"><i class="bi bi-person-lines-fill"></i></label>
+            <input class="input" type="text" id="lname" name="bdate" placeholder="Sobrenome">
         </div>
 
         
 
         <div class="user-pwd-container">
             <label class="poslog" for="senha"><i class="bi bi-lock"></i></label>
-            <input type="password" id="psw" name="senha" placeholder="Senha">
+            <input class="input" type="password" id="psw" name="senha" placeholder="Senha">
         </div>
 
         <div class="user-pwd-container">
             <label class="poslog" for="confsenha"><i class="bi bi-lock-fill"></i></label>
-            <input type="password" id="cpsw" name="confsenha" placeholder="Confirmar senha">
+            <input class="input" type="password" id="cpsw" name="confsenha" placeholder="Confirmar senha">
         </div>
         
         <div id="btn-container">
             <input class="button posbutton" type="submit" id="enviar" onclick="Enviar()" value="Enviar" />
             <a href="index.html">
-                <input class="button" type="button" value="Cadastrado?">
+                <input class="button" type="button" value="J&aacute cadastrado">
             </a>
         </div>
     </article>
